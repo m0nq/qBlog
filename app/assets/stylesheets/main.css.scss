@@ -1,0 +1,147 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+  background: $background-color;
+  line-height: 1.6em;
+  margin-bottom: 60px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+section {
+  margin-top: 80px;
+}
+
+.navbar {
+  overflow: auto;
+  min-height: 100px;
+  background: $primary-color;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 0;
+}
+
+h1 .navbar-brand {
+  margin: 15px 15px 0 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #ff953f;
+}
+
+.navbar a.navbar-brand:hover {
+  color: #fff !important;
+}
+
+.navbar ul {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+  color: $secondary-color !important;
+}
+
+.search-form {
+  margin-top: 30px;
+}
+
+.search-form input[type='text'] {
+  border-radius: 0;
+  height: 38px;
+}
+
+.search-form .btn {
+  border: 0;
+  height: 38px;
+  margin-top: 0;
+  border-radius: 0;
+  margin-left: -5px;
+}
+
+.search-form .form-control {
+  background: #f4f4f4;
+  border: 1px solid #eee;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background: $primary-btn-color;
+}
+
+.btn:hover {
+  background: #ccc;
+}
+
+.post {
+  border: 1px #ccc solid;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post-content {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.post h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.post small {
+  background: $primary-color;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: $primary-color;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
