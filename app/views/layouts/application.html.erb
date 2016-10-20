@@ -47,7 +47,9 @@
             <% if flash[:alert] %>
               <div class="alert alert-danger"><%= flash[:alert] %></div>
             <% end %>
-            <%= yield %>
+            <!-- <div class="well"> -->
+              <%= yield %>
+            <!-- </div> -->
           </div>
           <div class="col-md-4">
             <%= render 'partials/sidebar'%>
